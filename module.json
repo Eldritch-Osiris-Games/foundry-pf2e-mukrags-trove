@@ -10,8 +10,8 @@
       "name": "Dylan Wokeck"
     }
   ],
-  "manifest": "",
-  "download": "",
+  "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/foundry-pf2e-mukrags-trove/main/module.json",
+  "download": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-mukrags-trove/archive/refs/heads/main.zip",
   "url": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-mukrags-trove",
   "version": "1.0.0",
   "compatibility": {
