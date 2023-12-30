@@ -1,0 +1,60 @@
+{
+  "title": "Mukrag's Trove of Soul and Matter",
+  "id": "foundry-pf2e-mukrags-trove",
+  "description": "",
+  "authors": [
+    {
+      "name": "James Beck"
+    },
+    {
+      "name": "Dylan Wokeck"
+    }
+  ],
+  "manifest": "",
+  "download": "",
+  "url": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-mukrags-trove",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "media": [
+    {
+      "type": "setup",
+      "caption": "Mukrag's Trove of Soul and Matter",
+      "thumbnail": "/modules/foundry-pf2e-mukrags-trove/art/utility/icon.webp"
+    }
+  ],
+  "esmodules": ["popup.js"],
+  "packs": [
+    {
+      "label": "Mukrag's Trove Actors",
+      "type": "Actor",
+      "name": "mukrags-trove-actors",
+      "path": "./packs/mukrags-trove-actors.db",
+      "system": "pf2e"
+    },
+    {
+      "label": "Mukrag's Trove",
+      "type": "Item",
+      "name": "mukrags-trove",
+      "path": "./packs/mukrags-trove.db",
+      "system": "pf2e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Mukrag's Trove of Soul and Matter",
+      "sorting": "m",
+      "packs": ["mukrags-trove", "mukrags-trove-actors"]
+    }
+  ],
+  "relationships": {
+    "systems": {
+      "id": "pf2e",
+      "compatibility": {
+        "minimum": "5.9.5"
+      }
+    }
+  }
+}
